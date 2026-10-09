@@ -6,12 +6,38 @@ Version: 1.0.0
 
 ═══════════════════════════════════════════════════════════════
 
+REPOSITORY STRUCTURE & NODE CLASSIFICATION
+
+Only files in the framework/ folder should be actual nodes.
+
+Top-level repo files are support documents, not framework nodes:
+- README.md = portal and navigation, not a node
+- LICENSE = legal text, not a node
+- NOTICE.md = legal/ownership text, not a node
+- CONTRIBUTING.md = operational guidance, not a node
+
+docs/ files are supporting documentation, not metadata nodes:
+- docs/architecture.md = implementation reference, not a node
+- docs/governance.md = operational guidance, not a node
+- docs/replication.md = implementation playbook, not a node
+- docs/metadata-model.md = supporting documentation, not a node
+
+Best practice:
+- root of repo = navigation and legal files
+- framework/ = actual metadata-driven node system
+- docs/ = non-node reference material linked from nodes
+
+Only framework/ files are true nodes in the system.
+
+═══════════════════════════════════════════════════════════════
+
 CORE CONCEPTS
 
 Index Node
   - A unique identifier in decimal notation (0.00, 0.1.00, 0.2.00, etc.)
   - Represents a category, concept, or structural element
   - The .00 suffix denotes a master definition node
+  - Lives exclusively in framework/ folder
 
 Metadata Record
   - Data about an index node
@@ -26,7 +52,7 @@ Skills Card
 
 ═══════════════════════════════════════════════════════════════
 
-INDEX HIERARCHY STRUCTURE
+NODE HIERARCHY STRUCTURE
 
 Level 0: Creator / Root
   0.00 = Victoria Love Franklin (Creator)
@@ -124,4 +150,4 @@ NEXT STEPS
 
 The repository will continue to expand with framework definitions, policy nodes, approval nodes, and implementation documentation.
 
-This file is the governing definition for how the node system is structured.
+This file is the governing definition for how the node system is structured and how to classify repository files.
