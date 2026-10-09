@@ -117,22 +117,39 @@ Every node should include these core metadata fields:
 EXAMPLE RECORD
 
 0.00 :: VICTORIA LOVE FRANKLIN - CREATOR
+
 @definition = "Root creator identity and origin of the framework"
+
 @name = "Victoria Love Franklin"
+
 @role = ["Creator", "Architect", "Designer", "Developer"]
+
 @authority = "FULL"
+
 @framework_owner = true
+
 @created = "2026-10-05"
+
 @bio_url = "https://victorialovefranklin.github.io/victoria-franklin-site/"
+
 @bio_title = "Victoria Love Franklin | Portfolio"
+
 @bio_source = "GitHub Pages Portfolio"
+
 @bio_linked = true
+
 @entity_type = "PERSON"
+
 @status = "ACTIVE"
+
 @version = "1.0.0"
+
 @repository = "Franklin-Research-Hub/rod-framework-docs"
+
 @source_of_truth = true
+
 @governance_level = "ROOT"
+
 @responsibility = [
   "Framework design",
   "System architecture",
@@ -142,6 +159,7 @@ EXAMPLE RECORD
   "AI/LLM knowledge architecture"
 ]
 @copyright = "Copyright (c) 2026 Victoria Love Franklin. All rights reserved."
+
 @license_type = "Proprietary - Licensed by Contract"
 
 ═══════════════════════════════════════════════════════════════
