@@ -1,28 +1,51 @@
 # ROD Framework
 
-This repository contains the documentation and metadata structure for the ROD Framework.
+This repository defines the ROD Framework as a proprietary metadata-driven architecture rooted in the creator's authority and codified through a structured node model.
 
-This project is rooted in the identity of:
+## Purpose
 
-- [0.00 - Victoria Love Franklin - Creator](framework/0.00-creator.md)
+The repository exists to document, govern, and preserve a framework architecture that is:
 
-## Documentation
+- rooted in a named creator and source of truth
+- designed to be machine-readable and AI-traceable
+- structured as a hierarchy of framework nodes
+- intended for controlled internal governance and implementation
 
-- [Documentation Index](framework/0.1.00-documentation-index.md)
-- [Index & Metadata Definitions](INDEX-METADATA-DEFINITIONS.md)
-- [Licensing](LICENSE.md)
+## Repository Structure
 
-## Framework Structure
+```text
+rod-framework/
+├── LICENSE
+├── README.md
+├── CONTRIBUTING.md
+├── NOTICE.md
+├── docs/
+│   ├── architecture.md
+│   ├── governance.md
+│   └── metadata-model.md
+├── framework/
+│   └── 0.00-creator.md
+```
 
-- [Framework Root](framework/0.00-creator.md)
-- [Identity & Role](framework/0.2.00-identity-role.md)
-- [Mission](framework/0.3.00-mission.md)
-- [Vision](framework/0.4.00-vision.md)
+## Node Model
 
-## External Profile
+Only files inside the `framework/` directory are treated as formal framework nodes. Repository-level files and documents in `docs/` are supporting materials rather than node definitions.
 
-- [Victoria Love Franklin | Portfolio](https://victorialovefranklin.github.io/victoria-franklin-site/)
+## Governance
 
----
+The creator is the root authority of the framework. All downstream governance, metadata, documentation, and implementation structure derive from the root node.
 
-This framework is proprietary and managed under the ownership of Victoria Love Franklin.
+## Ownership
+
+This repository and the framework it describes are proprietary and controlled by Victoria Love Franklin.
+
+## Status
+
+Status: Active
+Version: 1.0.0
+
+## Related
+
+- `framework/0.00-creator.md`
+- `docs/architecture.md`
+- `docs/governance.md`
