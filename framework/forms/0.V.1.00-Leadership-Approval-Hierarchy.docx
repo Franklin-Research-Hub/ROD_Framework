@@ -1,0 +1,226 @@
+Title: Leadership Approval Hierarchy - Register of Deeds
+Author: Victoria Love Franklin
+Date: October 9, 2026
+Version: 1.0.0
+
+---
+
+# LEADERSHIP APPROVAL HIERARCHY - REGISTER OF DEEDS
+
+## Node Reference: 0.V.1.00
+
+**Definition:** Formal approval hierarchy for framework validation and governance decisions
+
+**Status:** ACTIVE
+
+**Version:** 1.0.0
+
+**Created:** 2026-10-09
+
+---
+
+## APPROVAL HIERARCHY STRUCTURE
+
+This document establishes the formal leadership approval chain for all framework proposals, governance decisions, and Metro IT compliance validations.
+
+### Rank 1: JACK BROWN
+**Title:** Chief Deputy Register
+
+**Authority:** Operational approval and initial sign-off
+
+**Responsibilities:**
+- Reviews framework proposals
+- Assesses operational impact and disruption
+- Identifies operational risks and concerns
+- Provides initial operational sign-off
+- Routes approved proposals to Karen Johnson
+- Returns rejected proposals to proposer with explanation
+
+**Approval Options:**
+- ☐ APPROVED - Proposal passes operational review
+- ☐ APPROVED WITH CONDITIONS - Proposal approved pending conditions
+- ☐ REJECTED - Proposal fails operational review
+
+**Timeline:** 3-5 business days typical
+
+---
+
+### Rank 2: KAREN JOHNSON
+**Title:** Register of Deeds
+
+**Authority:** Department-level governance and compliance approval
+
+**Responsibilities:**
+- Reviews Jack Brown's operational assessment
+- Assesses governance and compliance implications
+- Identifies conflicts with Metro Nashville policy
+- Provides department-level approval
+- Escalates to Terrell Wilson if IT issues identified
+- Routes approved proposals to Terrell Wilson for final review
+- Returns rejected proposals to proposer with explanation
+
+**Approval Options:**
+- ☐ APPROVED - Proposal passes governance review
+- ☐ APPROVED WITH CONDITIONS - Proposal approved pending conditions
+- ☐ REJECTED - Proposal fails governance review
+- ☐ ESCALATED - Proposal requires additional review beyond this chain
+
+**Timeline:** 3-5 business days typical
+
+---
+
+### Rank 3: TERRELL WILSON
+**Title:** Deputy Register Information Technology
+
+**Authority:** Final IT governance and Metro IT compliance approval
+
+**Responsibilities:**
+- Reviews Jack Brown's operational assessment
+- Reviews Karen Johnson's governance assessment
+- Conducts final IT governance and Metro IT compliance review
+- Validates against public records policy
+- Validates against accessibility requirements (ADA, WCAG)
+- Validates against security and data handling standards
+- Determines whether Metro IT review is required
+- Provides final IT authority sign-off
+- Returns rejected proposals to proposer with explanation
+
+**Approval Options:**
+- ☐ APPROVED - Proposal passes all reviews
+- ☐ APPROVED WITH CONDITIONS - Proposal approved pending conditions
+- ☐ REJECTED - Proposal fails compliance review
+- ☐ ESCALATED - Proposal requires higher-level review
+
+**Metro IT Review Determination:**
+- ☐ Metro IT review is NOT required - Proceed to implementation
+- ☐ Metro IT review IS required - Route to appropriate technical review
+- ☐ Metro IT review is CONDITIONAL - Conditions identified
+
+**Timeline:** 3-5 business days typical
+
+---
+
+## COMPLETE APPROVAL CHAIN
+
+**Sequential Flow:**
+
+Proposal Submitted → Jack Brown → Karen Johnson → Terrell Wilson → Final Decision
+
+**All Three Approvals Required:** YES
+
+**Total Timeline:** 5-10 business days typical
+
+**Approval Completed When:** All three approvers have signed and dated the approval form
+
+---
+
+## DECISION OUTCOMES
+
+### APPROVED
+Framework proposal has successfully passed all three levels of review.
+- Proposal may proceed to next implementation layer
+- Complete documentation retained in framework archive
+- Implementation timeline begins immediately upon approval
+
+### APPROVED WITH CONDITIONS
+Framework proposal has been approved with specific conditions or remediation required.
+- Conditions must be documented and agreed to by proposer
+- Proposer must confirm conditions are met before implementation
+- Terrell Wilson must verify conditions have been addressed
+- Implementation may begin after condition verification
+
+### REJECTED
+Framework proposal has failed at one or more approval levels.
+- Proposer receives rejection explanation
+- Proposer must address concerns and resubmit
+- Resubmitted proposal goes through full approval chain again
+- Original rejected form retained in archive
+
+### ESCALATED
+Framework proposal requires additional stakeholders or higher-level review.
+- Escalation reason and path documented
+- Additional reviewers identified
+- Escalation timeline established
+- All approvers and proposer notified of escalation status
+
+---
+
+## APPROVAL FORMS & DOCUMENTATION
+
+**Required Forms:**
+- 0.V.2.00 - Threat Assessment Template
+- 0.V.3.00 - Validation Checklist
+- 0.V.10.00 - Full-Chain Approval Form
+
+**Supporting Documentation:**
+- Proposal description
+- Threat assessment details
+- Risk mitigation strategies
+- Metro IT compliance documentation
+- Records retention implications (if applicable)
+
+---
+
+## SIGN-OFF BLOCK
+
+**Stage 1 - Operational Review (Jack Brown)**
+
+Signature: _________________________________ Date: __________
+
+Title: Chief Deputy Register
+
+Decision: ☐ APPROVED  ☐ CONDITIONAL  ☐ REJECTED
+
+Notes: _________________________________________________________________
+
+---
+
+**Stage 2 - Governance Review (Karen Johnson)**
+
+Signature: _________________________________ Date: __________
+
+Title: Register of Deeds
+
+Decision: ☐ APPROVED  ☐ CONDITIONAL  ☐ REJECTED  ☐ ESCALATED
+
+Notes: _________________________________________________________________
+
+---
+
+**Stage 3 - IT Compliance Review (Terrell Wilson)**
+
+Signature: _________________________________ Date: __________
+
+Title: Deputy Register Information Technology
+
+Decision: ☐ APPROVED  ☐ CONDITIONAL  ☐ REJECTED  ☐ ESCALATED
+
+Metro IT Review Determination:
+☐ NOT REQUIRED  ☐ IS REQUIRED  ☐ CONDITIONAL
+
+Notes: _________________________________________________________________
+
+---
+
+## AUTHORITY STATEMENT
+
+This approval hierarchy is established to ensure:
+
+✓ All framework proposals receive comprehensive review
+✓ Operational impact is assessed and mitigated
+✓ Department governance and compliance is verified
+✓ Metro IT and external authority requirements are validated
+✓ Final approval authority rests with IT governance
+✓ Clear escalation path for high-risk or unclear proposals
+✓ Audit trail of all approval decisions
+
+---
+
+**Document Version:** 1.0.0
+
+**Last Updated:** October 9, 2026
+
+**Next Review:** As needed when governance structure changes
+
+**Approved By:** Victoria Love Franklin (Framework Creator)
+
