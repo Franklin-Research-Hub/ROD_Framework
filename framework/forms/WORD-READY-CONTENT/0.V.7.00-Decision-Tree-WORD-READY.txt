@@ -1,0 +1,62 @@
+DECISION TREE - APPROVAL ROUTING LOGIC
+
+Node Reference: 0.V.7.00
+
+Definition: Visual and logical decision tree for routing framework proposals to the correct approval path
+
+Status: ACTIVE
+Version: 1.0.0
+
+_______________________________________________________________________________
+
+DECISION TREE: FRAMEWORK PROPOSAL APPROVAL ROUTING
+
+START: New Proposal Submitted
+      |
+      v
+Who is submitting this proposal?
+   /      |      |      \
+  /       |      |       \
+Victoria  Jack/Karen  Other Staff  Unsure
+   |          |          |          |
+   v          v          v          v
+Creator?   Full Chain   Full Chain   Ask for clarification
+Threat     Jack → Karen → Terrell
+Assessment?
+   /      \
+  /        \
+YES         NO
+   |          |
+Full Chain   Terrell discretion
+Jack → Karen → Terrell
+
+If the proposer is Victoria and no threats are identified:
+   - Terrell decides if Metro IT review is required
+   - If NO: proceed under Creator-Only approval
+   - If YES: route to appropriate review path
+
+FINAL ROUTING SUMMARY
+
+ROUTE A: FULL CHAIN
+When: Non-creator proposals OR creator proposals with threats
+Form: Full-Chain Approval Form
+Approvers: Jack → Karen → Terrell
+
+ROUTE B: CREATOR-ONLY
+When: Creator proposals with no identified threats
+Form: Creator-Only Approval Form
+Approver: Terrell only
+
+ROUTE C: ESCALATED REVIEW
+When: Terrell determines escalation is needed
+Form: Determined by Terrell
+Approvers: As determined by Terrell
+
+_______________________________________________________________________________
+
+WORD-INSTRUCTIONS:
+1. Copy this content into Word.
+2. Add simple ASCII boxes and arrows.
+3. Use bold headings.
+4. Save as: 0.V.7.00-Decision-Tree.docx
+5. Convert to PDF if needed.

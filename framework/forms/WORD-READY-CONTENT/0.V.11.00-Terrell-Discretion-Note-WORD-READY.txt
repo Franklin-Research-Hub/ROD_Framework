@@ -1,0 +1,76 @@
+TERRELL DISCRETION NOTE - METRO IT REVIEW AUTHORITY
+
+Node Reference: 0.V.11.00
+
+Definition: Authority and guidance document establishing Terrell Wilson's discretion over Metro IT review requirements
+
+Status: ACTIVE
+Version: 1.0.0
+
+_______________________________________________________________________________
+
+TERRELL WILSON DISCRETION NOTE
+
+Metro IT Review Authority & Decision Framework
+
+Authority Statement:
+Terrell Wilson (Deputy Register Information Technology) holds final decision-making authority over whether Metro IT review is required for framework proposals under this approval system.
+
+Metro IT review is not automatically required for every proposal.
+Metro IT review is triggered only at Terrell Wilson's discretion based on the risks, compliance needs, or technical concerns present in each proposal.
+
+_______________________________________________________________________________
+
+DISCRETION AUTHORITY
+
+Terrell determines review is required when a proposal involves:
+• Public records handling or retention
+• Accessibility compliance
+• Website or public-facing digital content
+• Sensitive or restricted data
+• IT security or privacy risks
+• System integration or platform configuration
+• Technical validation or architectural review
+• Unclear policy or governance concerns
+
+Terrell may decide review is not required when:
+• Proposal is limited to framework documentation
+• Proposal involves no data handling or records retention
+• Proposal has no accessibility or compliance implications
+• Proposal is internal governance or organizational only
+• Proposal presents no IT risk
+
+_______________________________________________________________________________
+
+DISCRETION PROCESS
+
+1. Terrell reviews the proposal and threat assessment.
+2. Terrell asks whether the proposal creates a Metro IT policy, technical, security, or compliance concern.
+3. If YES: Terrell determines required review level and may escalate.
+4. If NO: Terrell may approve under the creator-only or streamlined path.
+5. Terrell documents the discretion decision on the approval form.
+
+_______________________________________________________________________________
+
+DECISION DOCUMENTATION
+
+On every approval form, Terrell indicates:
+
+[ ] Metro IT review is NOT required
+Reason: ________________________________________________________________
+
+[ ] Metro IT review IS required
+Reason: ________________________________________________________________
+Escalation path: _______________________________________________________
+
+[ ] Metro IT review is CONDITIONAL
+Condition: ______________________________________________________________
+Review trigger: ________________________________________________________
+
+_______________________________________________________________________________
+
+INSTRUCTIONS FOR WORD DOCUMENT:
+1. Copy content into Word.
+2. Add formal governance formatting.
+3. Save as: 0.V.11.00-Terrell-Discretion-Note.docx
+4. Convert to PDF if needed.

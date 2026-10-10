@@ -1,0 +1,63 @@
+VALIDATION REFERENCE TEMPLATE
+
+Node Reference: 0.V.13.00
+
+Definition: Reusable template for external or internal validation references
+
+Status: ACTIVE
+Version: 1.0.0
+
+_______________________________________________________________________________
+
+VALIDATION REFERENCE TEMPLATE
+
+Validation ID: _________________________________________________
+Validation Name: ________________________________________________
+Validation Type: [ ] Internal [ ] External [ ] Policy [ ] Security [ ] Compliance
+Parent Node: _________________________________________________
+Approval Needed: [ ] YES [ ] NO
+Status: [ ] ACTIVE [ ] PENDING [ ] PASSED [ ] FAILED [ ] CONDITIONAL [ ] ARCHIVED
+
+_______________________________________________________________________________
+
+VALIDATION QUESTIONS
+
+1. What rule, policy, or standard is being validated?
+_____________________________________________________________________________
+
+2. What authority or source was reviewed?
+_____________________________________________________________________________
+
+3. What does the authority state?
+_____________________________________________________________________________
+
+4. Does the proposal or framework comply?
+[ ] YES [ ] NO [ ] CONDITIONAL
+
+5. What is the official validation decision?
+_____________________________________________________________________________
+
+6. Who reviewed the validation?
+_____________________________________________________________________________
+
+7. Date reviewed: _________________________
+8. Final decision: [ ] PASSED [ ] FAILED [ ] CONDITIONAL [ ] PENDING
+
+_______________________________________________________________________________
+
+SIGN-OFF BLOCK
+
+Validated By: _________________________________________________
+Title: ___________________________________________________________
+Signature: _________________________________________________
+Date: ___________________
+
+Notes: ________________________________________________________________
+
+_______________________________________________________________________________
+
+INSTRUCTIONS FOR WORD DOCUMENT:
+1. Copy content into Word.
+2. Keep questions and sign-off block visible.
+3. Save as: 0.V.13.00-Validation-Reference-Template.docx
+4. Convert to PDF if needed.

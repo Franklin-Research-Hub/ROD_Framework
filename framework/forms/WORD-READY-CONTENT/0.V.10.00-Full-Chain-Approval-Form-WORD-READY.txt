@@ -1,0 +1,147 @@
+FULL-CHAIN APPROVAL FORM
+
+Node Reference: 0.V.10.00
+
+Definition: Comprehensive approval form for framework proposals requiring full chain review (Jack → Karen → Terrell)
+
+Status: ACTIVE
+Version: 1.0.0
+
+_______________________________________________________________________________
+
+FORM A: FULL-CHAIN APPROVAL FORM
+
+Proposal Title: _______________________________________________________________
+Submission Date: ______________________ Proposer Name/Role: _____________________
+Framework Node/Layer: _________________________________________________________
+Proposal Type:
+○ Creator proposal with identified threat(s)
+○ Non-creator proposal (staff/department)
+○ Leadership proposal requiring chain review
+○ Other: ________________________________________________
+
+Brief Description:
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+_______________________________________________________________________________
+
+THREAT ASSESSMENT SUMMARY
+
+Identified Threats (check all that apply):
+
+☐ Violates Metro IT policy
+☐ Violates public records policy
+☐ Requires records retention compliance review
+☐ Requires accessibility compliance review
+☐ Handles sensitive or restricted data
+☐ May impact IT security or data handling
+☐ Requires operational sign-off
+☐ Requires governance approval
+☐ Other: _________________________________________________________________
+
+Threat Level:
+○ LOW
+○ MEDIUM
+○ HIGH
+
+_______________________________________________________________________________
+
+STAGE 1: JACK BROWN REVIEW
+
+Date Received: ____________________
+
+Operational Impact Assessment:
+Does this proposal create operational burden or disruption?
+○ NO
+○ YES
+
+Operational Impact Description:
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+Mitigation or Implementation Plan:
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+Jack Brown Decision:
+○ APPROVED
+○ APPROVED WITH CONDITIONS
+○ REJECTED
+
+Signature: ______________________________ Date: ___________________
+
+_______________________________________________________________________________
+
+STAGE 2: KAREN JOHNSON REVIEW
+
+Date Received: ____________________
+
+Governance Assessment:
+Does this proposal conflict with Metro policy or governance?
+○ NO
+○ YES
+
+Governance/Compliance Issue Description:
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+Karen Johnson Decision:
+○ APPROVED
+○ APPROVED WITH CONDITIONS
+○ REJECTED
+○ ESCALATED
+
+Signature: ______________________________ Date: ___________________
+
+_______________________________________________________________________________
+
+STAGE 3: TERRELL WILSON REVIEW
+
+Date Received: ____________________
+
+Metro IT Compliance Assessment:
+Does this proposal comply with Metro IT governance requirements?
+○ NO
+○ YES
+○ CONDITIONAL
+
+Metro IT Review Items:
+☐ Public records policy compliance
+☐ Records retention schedule compliance
+☐ Accessibility (ADA/WCAG) compliance
+☐ IT security and data handling review
+☐ Platform or configuration review
+☐ External review required
+☐ Other: ________________________________________________________________
+
+Terrell Wilson Decision:
+○ APPROVED
+○ APPROVED WITH CONDITIONS
+○ REJECTED
+○ ESCALATED
+
+Signature: ______________________________ Date: ___________________
+
+_______________________________________________________________________________
+
+FINAL APPROVAL SUMMARY
+
+Proposal Status: [ ] APPROVED [ ] CONDITIONAL [ ] REJECTED [ ] ESCALATED
+
+Jack Brown: ☐ Approved ☐ Conditional ☐ Rejected
+Karen Johnson: ☐ Approved ☐ Conditional ☐ Rejected
+Terrell Wilson: ☐ Approved ☐ Conditional ☐ Rejected
+
+Conditions/Notes:
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+_______________________________________________________________________________
+
+INSTRUCTIONS FOR WORD DOCUMENT:
+1. Copy content into Word.
+2. Use consistent section headers and sign-off blocks.
+3. Save as: 0.V.10.00-Full-Chain-Approval-Form.docx
+4. Convert to PDF after signing.
