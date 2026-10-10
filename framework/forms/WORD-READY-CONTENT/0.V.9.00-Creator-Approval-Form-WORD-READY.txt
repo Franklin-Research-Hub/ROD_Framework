@@ -1,0 +1,210 @@
+CREATOR-ONLY APPROVAL FORM (Fillable)
+Low-Risk Framework Proposal Approval
+
+Node Reference: 0.V.9.00
+
+_______________________________________________________________________________
+
+PROPOSAL INFORMATION
+
+Proposal Title: ___________________________________________________________
+
+Submission Date: ________________________
+
+Proposer: Victoria Love Franklin (Framework Creator)
+
+Framework Node/Layer: ____________________________________________________
+
+Implementation Timeline: __________________________________________________
+
+_______________________________________________________________________________
+
+BRIEF DESCRIPTION
+
+Describe your framework proposal in 1-2 paragraphs:
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+Next Framework Layer/Phase: _______________________________________________
+
+Dependencies or Prerequisites: _______________________________________________
+
+_____________________________________________________________________________
+
+_______________________________________________________________________________
+
+THREAT ASSESSMENT CONFIRMATION
+
+I confirm that this proposal has been assessed and contains NO identified threats:
+
+☐ Does NOT violate Metro IT policy
+
+☐ Does NOT violate public records policy
+
+☐ Does NOT require records retention compliance review
+
+☐ Does NOT require accessibility compliance review (ADA/WCAG)
+
+☐ Does NOT handle sensitive or restricted data
+
+☐ Does NOT impact IT security or data handling
+
+☐ Does NOT require operational sign-off from Jack Brown
+
+☐ Does NOT require governance approval from Karen Johnson
+
+_______________________________________________________________________________
+
+ROUTING CONFIRMATION
+
+This proposal is routed for CREATOR-ONLY APPROVAL:
+
+☑ Requires Terrell Wilson review and approval only
+
+☑ Does NOT require Jack Brown (Chief Deputy Register) approval
+
+☑ Does NOT require Karen Johnson (Register of Deeds) approval
+
+☑ Metro IT review is discretionary and will be determined by Terrell
+
+_______________________________________________________________________________
+
+PROPOSER CERTIFICATION
+
+I, Victoria Love Franklin, hereby certify that:
+
+• The information provided in this proposal is accurate and complete
+• No threats have been identified that would require full chain approval
+• This proposal is ready for Terrell Wilson's review
+• I understand that Metro IT review may be requested if Terrell deems it necessary
+
+Proposer Signature: _________________________________ Date: __________
+
+Proposer Printed Name: ____________________________________________________
+
+_______________________________________________________________________________
+
+TERRELL WILSON REVIEW & APPROVAL SECTION
+
+Reviewer and Approver: Terrell Wilson (Deputy Register Information Technology)
+
+Date Received: ________________________
+
+_______________________________________________________________________________
+
+METRO IT REVIEW DETERMINATION
+
+After reviewing this proposal, I determine:
+
+☐ METRO IT REVIEW IS NOT REQUIRED AT THIS STAGE
+   
+   Reason: ________________________________________________________________
+   
+   This proposal may proceed under Creator-Only approval path
+
+☐ METRO IT REVIEW IS REQUIRED
+   
+   Reason: ________________________________________________________________
+   
+   Escalating to: __________________________________________________________
+   
+   (This proposal will be routed for technical review)
+
+_______________________________________________________________________________
+
+APPROVAL DECISION
+
+☐ APPROVED
+   Proposal is approved and may proceed to next implementation layer
+
+☐ APPROVED WITH CONDITIONS
+   Proposal is approved with the following conditions:
+   
+   _____________________________________________________________________
+   
+   _____________________________________________________________________
+
+☐ REJECTED
+   Proposal requires revision. Reason:
+   
+   _____________________________________________________________________
+   
+   _____________________________________________________________________
+   
+   Please revise and resubmit.
+
+_______________________________________________________________________________
+
+TERRELL WILSON SIGNATURE & APPROVAL
+
+Approval Status: ☐ APPROVED  ☐ CONDITIONAL  ☐ REJECTED
+
+Reviewed by: Terrell Wilson
+
+Signature: ______________________________________ Date: __________
+
+Title: Deputy Register Information Technology
+
+_______________________________________________________________________________
+
+APPROVAL COMPLETION
+
+If Approved:
+• ☐ Proposal is cleared to proceed to next framework implementation layer
+• ☐ This form has been archived with the proposal documentation
+• ☐ Proposer has been notified of approval
+• ☐ Implementation may begin as outlined in proposal timeline
+
+If Conditional:
+• ☐ Conditions listed above must be addressed before implementation
+• ☐ Proposer has been notified of conditions
+• ☐ Proposer to confirm conditions met, then proceed
+
+If Rejected:
+• ☐ Proposer has been notified of rejection
+• ☐ Proposer to revise and resubmit under appropriate approval path
+• ☐ Form archived for records
+
+_______________________________________________________________________________
+
+ARCHIVE INFORMATION
+
+Approval Completed Date: ________________________
+
+Archive Location: __________________________________________________________
+
+Next Layer Implementation Date (if approved): ______________________________
+
+Proposer Notified: ☐ YES  ☐ NO  Date: ________________
+
+_______________________________________________________________________________
+
+Form Version: 1.0.0
+Last Updated: October 9, 2026
+For Questions: Contact Terrell Wilson, Deputy Register Information Technology
+
+_______________________________________________________________________________
+
+INSTRUCTIONS FOR WORD DOCUMENT:
+
+1. Copy this entire content
+2. Open Microsoft Word
+3. Create new document
+4. Paste content
+5. Format as follows:
+   - Title: 16pt, Bold, Centered
+   - Section Headers: 12pt, Bold
+   - Body text: 11pt, Normal
+   - Leave blank lines for signature and fill-in fields
+6. Convert checkbox symbols (☐) to actual Word form checkboxes (Insert > Form Controls > Checkbox)
+7. Add footer with document name and version
+8. Save as: 0.V.9.00-Creator-Only-Approval-Form-FILLABLE.docx
+9. To make it fillable:
+   - Enable Developer tab: File > Options > Customize Ribbon > Check "Developer"
+   - Select text fields where data should be entered
+   - Insert Rich Text Box (Developer > Rich Text Box)
+10. Convert to PDF if needed
