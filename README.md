@@ -19,7 +19,7 @@ This repository is organized in two distinct ways:
 The repository root contains repository-wide files and top-level folders.
 
 Examples:
-- `LICENSE`
+- `LICENSE.md`
 - `README.md`
 - `CONTRIBUTING.md`
 - `NOTICE.md`
@@ -46,16 +46,22 @@ In this repository:
 - `Foundation/` defines the structural, governance, metadata, validation, and tree rules of the framework.
 - `Creator/` defines creator-layer records, creator metadata, biography and portfolio inclusion, and website application.
 
+### Retained Legacy Material
+`docs/` and `framework/` are retained for reference, including validation records and forms without layered equivalents. They are not active documentation layers. Use `Foundation/` and `Creator/` for the current architecture, governance, metadata rules, and creator anchor.
+
 ## Repository Tree
 
 ```text
 ROD_Framework/
-├── LICENSE
+├── LICENSE.md
 ├── README.md
 ├── CONTRIBUTING.md
 ├── NOTICE.md
+├── INDEX-METADATA-DEFINITIONS.md
 ├── Foundation/
-└── Creator/
+├── Creator/
+├── docs/                            <- Legacy references
+└── framework/                       <- Legacy records and forms
 ```
 
 ## Documentation Layers

@@ -9,7 +9,7 @@ This repository is intended for internal documentation, framework governance, an
 
 Framework ownership:
 - Creator: Victoria Love Franklin
-- Repository: Franklin-Research-Hub/rod-framework-docs
+- Repository: Franklin-Research-Hub/ROD_Framework
 - Status: Proprietary - Licensed by Contract
 
 For licensing inquiries, contact the owner directly.
