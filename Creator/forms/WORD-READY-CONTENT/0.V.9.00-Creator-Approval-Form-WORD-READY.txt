@@ -1,6 +1,8 @@
 CREATOR-ONLY APPROVAL FORM (Fillable)
 Low-Risk Framework Proposal Approval
 
+[DERIVATIVE EXPORT ARTIFACT: Word-ready plain text formatted for Microsoft Word import. Canonical form specification: Creator/validation/0.V.9.00-low-risk-creator-approval-form.md]
+
 Node Reference: 0.V.9.00
 
 _______________________________________________________________________________

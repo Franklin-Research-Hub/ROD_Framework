@@ -2,6 +2,9 @@ Title: Creator-Only Approval Form (Fillable)
 Author: Victoria Love Franklin
 Date: October 9, 2026
 Version: 1.0.0
+Status: Derivative Export Artifact (Legacy plain text formerly distributed as .docx, retained for format provenance)
+Canonical Specification: Creator/validation/0.V.9.00-low-risk-creator-approval-form.md
+Active Export Format: Creator/forms/WORD-READY-CONTENT/0.V.9.00-Creator-Approval-Form-WORD-READY.txt
 
 ---
 

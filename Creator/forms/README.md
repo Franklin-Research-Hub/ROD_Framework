@@ -2,6 +2,14 @@
 
 This directory contains text sources for the Creator layer's applied validation and approval forms. It contains no generated Word or PDF documents. The two former `.docx` files were UTF-8 text, not Word packages; they are retained with `.txt` extensions to preserve their content accurately.
 
+## Relationship to Canonical Records
+
+All files in `forms/WORD-READY-CONTENT/` and `forms/*.txt` are **derivative export artifacts** formatted for local word-processing workflows. They do not constitute independent policy definitions:
+- **Canonical Policy Records**: Policy rules, qualifying criteria, and routing workflows are defined authoritatively in `Creator/validation/` (e.g., [0.V.6.00 Creator-Only Approval](../validation/0.V.6.00-creator-only-terrell-approval.md)).
+- **Canonical Form Specifications**: Fillable form structures and certification fields are defined authoritatively in `Creator/validation/` (e.g., [0.V.9.00 Low-Risk Creator Approval Form](../validation/0.V.9.00-low-risk-creator-approval-form.md)).
+- **General Form Template**: Structural schemas and field organization across approval tiers are defined in [Approval Form Template](../approvals/approval-form-template.md).
+- **Export Artifacts**: The text sources in this directory derive from those canonical records and are retained to facilitate local document production and maintain format provenance without creating conflicting sources of truth.
+
 ## Available Forms
 
 ### Word-Ready Text

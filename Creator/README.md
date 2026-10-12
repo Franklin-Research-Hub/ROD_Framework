@@ -45,3 +45,13 @@ The Creator layer follows the architecture, governance, metadata, validation, an
 
 ## 6. Status
 Baseline creator layer established.
+
+## 7. Canonical Records & Artifact Relationships
+
+To eliminate duplicate sources of truth and maintain strict architectural boundaries:
+
+1. **Canonical Creator Anchor**: `Creator/0.00-creator.md` is the sole canonical source of truth for creator identity, authority, and root metadata.
+2. **Foundation / Creator Separation**: `Foundation/` (Layer 1) defines the rules, schemas, and governance model. Foundation files illustrate metadata fields with generic schemas without duplicating creator personal or biographical metadata.
+3. **Canonical Policy & Form Nodes**: Documents in `Creator/validation/` (e.g., [0.V.6.00 Creator-Only Approval](validation/0.V.6.00-creator-only-terrell-approval.md), [0.V.9.00 Low-Risk Creator Approval Form](validation/0.V.9.00-low-risk-creator-approval-form.md)) are the canonical policy definitions and form specifications.
+4. **General Approval Template**: [Approval Form Template](approvals/approval-form-template.md) provides a generalized structural schema for designing approval forms across tiers, distinct from specific form instances.
+5. **Derivative Export Artifacts**: Files in `Creator/forms/WORD-READY-CONTENT/` and legacy text sources are derivative export artifacts provided for word-processing convenience. They defer to their canonical validation nodes for governance and policy criteria.

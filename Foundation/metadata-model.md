@@ -19,7 +19,9 @@ Example label format:
 
 Example:
 
-`[0.00 :: Victoria Love Franklin - Creator](0.00-creator.md)`
+`0.00 :: Victoria Love Franklin - Creator`
+
+Canonical anchor record: [0.00 :: Victoria Love Franklin - Creator](../Creator/0.00-creator.md)
 
 ## 4. Creator Metadata Rule
 Creator metadata may include:

@@ -116,9 +116,28 @@ Every node should include these core metadata fields:
 
 ═══════════════════════════════════════════════════════════════
 
-RECORD PLACEMENT
+EXAMPLE RECORD SCHEMA (ILLUSTRATIVE)
 
-The creator example's identity, authority, biography, ownership, and machine-readable fields are maintained in the canonical Layer 2 creator anchor record rather than duplicated in Foundation.
+To illustrate field structure without duplicating specific creator profile content:
+
+```text
+0.X.00 :: EXAMPLE NODE NAME - ROLE
+
+@definition = "Concise statement of the node's function or responsibility"
+@name = "Example Node Name"
+@role = ["Architect", "Developer"]
+@authority = "DELEGATED"
+@status = "ACTIVE"
+@version = "1.0.0"
+@created = "2026-10-05"
+@modified = "2026-10-09"
+```
+
+RECORD PLACEMENT & CANONICAL SOURCE OF TRUTH
+
+Specific creator identity, authority, biography, ownership, and full machine-readable metadata fields are maintained solely in the canonical Layer 2 creator anchor record: [0.00 :: Victoria Love Franklin - Creator](../Creator/0.00-creator.md).
+
+Foundation defines the structural metadata rules and field specifications, while Layer 2 implements the actual creator record, avoiding duplicate metadata definitions across layers.
 
 ═══════════════════════════════════════════════════════════════
 

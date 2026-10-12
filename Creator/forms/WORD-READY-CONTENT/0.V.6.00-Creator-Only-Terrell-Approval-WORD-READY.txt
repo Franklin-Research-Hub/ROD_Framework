@@ -1,5 +1,7 @@
 CREATOR-ONLY / TERRELL-ONLY APPROVAL PATH
 
+[DERIVATIVE EXPORT ARTIFACT: Word-ready plain text formatted for Microsoft Word import. Canonical policy node: Creator/validation/0.V.6.00-creator-only-terrell-approval.md]
+
 Node Reference: 0.V.6.00
 
 Definition: Streamlined approval process for creator proposals with no identified threats

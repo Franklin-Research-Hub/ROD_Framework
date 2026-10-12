@@ -2,6 +2,9 @@ Title: Leadership Approval Hierarchy - Register of Deeds
 Author: Victoria Love Franklin
 Date: October 9, 2026
 Version: 1.0.0
+Status: Derivative Export Artifact (Legacy plain text formerly distributed as .docx, retained for format provenance)
+Canonical Node: Creator/validation/0.V.1.00-leadership-approval-hierarchy.md
+Active Export Format: Creator/forms/WORD-READY-CONTENT/0.V.1.00-Leadership-Approval-Hierarchy-WORD-READY.txt
 
 ---
 

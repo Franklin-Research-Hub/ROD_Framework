@@ -1,8 +1,10 @@
 # Approval Form Template
 
-This template provides the structure for framework proposal approval forms that can be adapted for different approval paths.
+**Document Role: General Structural Template**
 
-Use this Markdown template or the [form text sources](../forms/README.md). No editable PDF is included in this repository.
+This document provides a generalized structural schema and template guide for framework proposal approval forms across all approval tiers. It serves as an architectural template, distinct from specific applied form implementations (such as Form B: [0.V.9.00 Low-Risk Creator Approval Form](../validation/0.V.9.00-low-risk-creator-approval-form.md) or [0.V.10.00 Full-Chain Approval Form](../validation/0.V.10.00-full-chain-approval-form.md)).
+
+Use this Markdown template to design new approval forms, or use the [form text sources](../forms/README.md) for existing form implementations. No editable PDF is included in this repository.
 
 ## Approval Form Structure
 
