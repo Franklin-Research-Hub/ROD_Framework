@@ -1,7 +1,7 @@
 # Creator (Layer 2)
 
 ## 1. Purpose
-The Creator layer is Layer 2 of the `rod-framework` repository. It contains creator-specific records and supporting documents that define creator identity, attribution, metadata inclusion, and website application.
+The Creator layer is Layer 2 of the `ROD_Framework` repository. It contains creator-specific records and supporting documents that define creator identity, attribution, metadata inclusion, and website application.
 
 ## 2. Document Set
 | Document | Responsibility |

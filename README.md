@@ -49,7 +49,7 @@ In this repository:
 ## Repository Tree
 
 ```text
-rod-framework-docs/
+ROD_Framework/
 ├── LICENSE
 ├── README.md
 ├── CONTRIBUTING.md

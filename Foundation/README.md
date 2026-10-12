@@ -1,7 +1,7 @@
 # Foundation (Layer 1)
 
 ## 1. Purpose
-The Foundation layer is the base documentation layer of the `rod-framework` repository. It defines the structure, governance, metadata rules, validation references, and tree/branch organization on which all other layers depend.
+The Foundation layer is the base documentation layer of the `ROD_Framework` repository. It defines the structure, governance, metadata rules, validation references, and tree/branch organization on which all other layers depend.
 
 ## 2. Document Set
 | Document | Responsibility |
