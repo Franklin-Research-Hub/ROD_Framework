@@ -1,9 +1,11 @@
-# Tree and Branch
+# Foundation — Tree and Branch
 
 ## 1. Purpose
-This document is the authoritative tree and branch definition for the Foundation layer.
+This document defines the tree and branch structure specifically for the Foundation layer (Layer 1).
 
-## 2. Raw Tree: Foundation (Layer 1)
+For the canonical repository-wide master tree, full table of contents, and cross-layer definitions, see [MASTER-TREE-BRANCH.md](../MASTER-TREE-BRANCH.md).
+
+## 2. Layer Tree: Foundation (Layer 1)
 ```text
 Foundation/
 ├── README.md
@@ -14,38 +16,21 @@ Foundation/
 └── tree-branch.md
 ```
 
-## 3. Raw Tree: Full Repository
-```text
-ROD_Framework/
-├── LICENSE
-├── README.md
-├── CONTRIBUTING.md
-├── NOTICE.md
-├── Foundation/                      <- Layer 1
-│   ├── README.md
-│   ├── architecture.md
-│   ├── governance.md
-│   ├── metadata-model.md
-│   ├── validation-references.md
-│   └── tree-branch.md
-└── Creator/                         <- Layer 2
-    ├── README.md
-    ├── INDEX.md
-    ├── 0.00-creator.md
-    ├── website-application.md
-    └── tree-branch.md
-```
+## 3. Document Register
+| Document | Responsibility |
+|---|---|
+| [README.md](README.md) | Layer overview and document register |
+| [architecture.md](architecture.md) | Structural design and dependency model of the framework |
+| [governance.md](governance.md) | Rules for change control and stewardship |
+| [metadata-model.md](metadata-model.md) | Definitions for metadata and labeling |
+| [validation-references.md](validation-references.md) | Criteria for checking consistency |
+| [tree-branch.md](tree-branch.md) | Layer-specific tree and branch definition |
 
-## 4. Branch Definitions
-| Branch | Location | Contents |
-|---|---|---|
-| Foundation | `Foundation/` | Layer 1 documents |
-| Creator | `Creator/` | Layer 2 creator records, including metadata with biography, portfolio, and extended profile material |
+## 4. Layer Rules
+- Foundation changes stay within `Foundation/`.
+- Foundation defines the structural and metadata rules on which higher layers depend.
+- Creator records belong to Layer 2 (`Creator/`) and are kept out of Foundation.
 
-## 5. Branch Rules
-- Foundation changes stay in `Foundation/`.
-- Creator record changes stay in `Creator/`.
-- Creator metadata may include biography and portfolio references.
-
-## 6. Maintenance
-Update this file whenever the Foundation tree changes.
+## 5. Maintenance
+- Update this file whenever files in `Foundation/` are added, renamed, or deleted.
+- When the Foundation structure changes, also update the master tree and table of contents in [MASTER-TREE-BRANCH.md](../MASTER-TREE-BRANCH.md).
