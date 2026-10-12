@@ -1,171 +1,86 @@
-ROD FRAMEWORK - INDEX & METADATA DEFINITIONS
-Created by: Victoria Love Franklin
-Source: 0.00
-Date: 2026-10-05
-Version: 1.0.0
+# Working Index and Metadata Definitions
 
-═══════════════════════════════════════════════════════════════
+## 1. Purpose and Status
+This document defines current terminology for `Franklin-Research-Hub/ROD_Framework`, a proprietary framework archive under active development. These are working definitions, not a closed or permanently final vocabulary.
 
-REPOSITORY STRUCTURE & NODE CLASSIFICATION
+The [master tree](MASTER-TREE-BRANCH.md) governs structure. [Foundation metadata guidance](Foundation/metadata-model.md) applies these definitions; this document does not create additional layers or records.
 
-Only files in the framework/ folder should be actual nodes.
+## 2. Structural Terms
+| Term | Working Definition |
+|---|---|
+| Repository root | Top-level container for repository-wide documents and branch folders; not a numbered layer |
+| Tree | Declared documentation structure within a stated scope |
+| Master tree | Canonical repository-wide structural navigation baseline, not an exhaustive physical inventory |
+| Branch | Owning documentation folder with a defined role; not a Git branch |
+| Layer | Architectural position assigned to a branch by the master tree |
+| Dependency | Direction in which one branch applies another's rules; currently Creator → Foundation |
+| Section number | Local document-order label beginning at 1; never a framework node identifier |
 
-Top-level repo files are support documents, not framework nodes:
-- README.md = portal and navigation, not a node
-- LICENSE = legal text, not a node
-- NOTICE.md = legal/ownership text, not a node
-- CONTRIBUTING.md = operational guidance, not a node
+## 3. Branch and Node Terms
+| Term | Working Definition |
+|---|---|
+| Entry document | Branch or repository overview, normally a README |
+| Index node | Branch-owned authoritative register linking its records, currently `Creator/INDEX.md` |
+| Tree node | Local structural description subordinate to the master tree |
+| Record node | Branch-owned file containing the authoritative content of a registered record |
+| Canonical record | Designated source record for its subject, reached through the owning index |
+| Application document | Guidance for applying record content without replacing its authority |
+| Anchor identifier | Stable reference label for a record; `0.00` is the current Creator anchor |
 
-docs/ files are supporting documentation, not metadata nodes:
-- docs/architecture.md = implementation reference, not a node
-- docs/governance.md = operational guidance, not a node
-- docs/replication.md = implementation playbook, not a node
-- docs/metadata-model.md = supporting documentation, not a node
+An identifier is not an index file, layer number, decimal calculation, or version. No general hierarchy or `.00` suffix rule is implied by the current anchor.
 
-Best practice:
-- root of repo = navigation and legal files
-- framework/ = actual metadata-driven node system
-- docs/ = non-node reference material linked from nodes
+## 4. Classification Terms
+Root documents serve entry, structural authority, navigation, contribution, definitions, notice, or licensing roles. Foundation documents define Layer 1 rules. Creator documents serve Layer 2 entry, indexing, record, application, and local-tree roles.
 
-Only framework/ files are true nodes in the system.
+Classify by declared responsibility and ownership, not by numbering or filename alone. A record is not a repository-wide structural authority. Older materials outside the master baseline do not define the current classification model.
 
-═══════════════════════════════════════════════════════════════
+## 5. Metadata Terms
+Metadata describes a document or record and its relationships. Current fields may be expressed in Markdown prose, lists, or tables; no executable or machine-readable schema is mandated.
 
-CORE CONCEPTS
+| Field | Meaning |
+|---|---|
+| Identifier | Record anchor, distinct from version and section numbering |
+| Name | Human-readable document or record name |
+| Definition / purpose | What the item represents |
+| Role | Declared responsibility or classification |
+| Branch / layer | Owning folder and architectural position |
+| Parent / children | Explicit ownership or registered record relationships, when applicable |
+| Linked to | Related references; a link alone does not establish ownership or authority |
+| Authority | Documented source or approval responsibility |
+| Status | Lifecycle state of the item |
+| Version | Separately declared revision label, if tracked; never inferred from `0.00` |
+| Created / modified | Documented dates, when known; do not invent them |
+| Repository | Repository context: `Franklin-Research-Hub/ROD_Framework` |
 
-Index Node
-  - A unique identifier in decimal notation (0.00, 0.1.00, 0.2.00, etc.)
-  - Represents a category, concept, or structural element
-  - The .00 suffix denotes a master definition node
-  - Lives exclusively in framework/ folder
+Creator metadata may include approved biography, portfolio references, extended profile material, and attribution. Such content remains in the Creator branch rather than being copied into Foundation rules.
 
-Metadata Record
-  - Data about an index node
-  - Defines what the node is, what it means, and what it owns
-  - Machine-readable attributes using @ prefix
-  - Tells the system and AI what the node represents
+## 6. Governance Terms
+- **Owner / creator authority:** Victoria Love Franklin's control of the proprietary framework and approval of governed changes.
+- **Structural authority:** The master tree's role in defining current repository structure, distinct from personal approval authority.
+- **Stewardship:** Maintaining documents within their scope; it does not transfer ownership.
+- **Controlled change:** A reviewed, authorized revision that updates affected dependencies and navigation.
+- **Approval:** Explicit authorization by the owner or documented delegate; neither a metadata label nor a proposed change grants it.
 
-Skills Card
-  - A metadata record attached to an index node
-  - Contains definitions, links, and properties
-  - Makes the architecture machine-readable and AI-traceable
+## 7. Lifecycle Terms
+| Term | Meaning |
+|---|---|
+| Proposed / draft | Under review; not yet adopted as an approved baseline |
+| Active-working | In current use while subject to development and controlled revision |
+| Baseline | Current documented reference point, not a promise of finality |
+| Deprecated | Retained for context but no longer recommended for current use |
+| Archived | Retained historical material outside active use |
 
-═══════════════════════════════════════════════════════════════
+Canonical authority and lifecycle are separate: a canonical record can remain active-working. Status does not confer licensing rights.
 
-NODE HIERARCHY STRUCTURE
+## 8. Usage Rules
+- Follow the master tree for repo-wide navigation and local trees for branch detail.
+- Reach creator records through [Creator/INDEX.md](Creator/INDEX.md); do not add branch-only records to the repo-wide TOC.
+- Preserve canonical links instead of duplicating authoritative record content.
+- Use local, consecutive section numbers independently in every structured document.
+- Keep identifiers, layers, versions, and section numbers distinct.
+- Apply [governance](Foundation/governance.md), [contribution rules](CONTRIBUTING.md), and [licensing restrictions](LICENSE.md).
 
-Level 0: Creator / Root
-  0.00 = Victoria Love Franklin (Creator)
+## 9. Controlled Expansion
+New terms, fields, classifications, indexes, or layers may be proposed as the framework develops. Document their purpose, owner, relationships, and compatibility with existing definitions; obtain approval before adopting them.
 
-Level 1: Documentation Index
-  0.1.00 = Documentation Index
-  0.1.1.00 = README
-  0.1.2.00 = Index & Metadata Definitions
-  0.1.3.00 = Licensing
-
-Level 2: Framework Definition
-  0.2.00 = Identity & Role
-  0.3.00 = Mission
-  0.4.00 = Vision
-  0.5.00 = Values & Principles
-  0.6.00 = Governance & Authority
-  0.7.00 = Goals & Roadmap
-  0.8.00 = Technical Architecture
-  0.9.00 = Standards & Compliance
-
-═══════════════════════════════════════════════════════════════
-
-METADATA RECORD STRUCTURE
-
-Every node should include these core metadata fields:
-
-@definition
-  Purpose: Explains what the node is and what it represents
-
-@name
-  Purpose: Human-readable name of the node
-
-@role
-  Purpose: Classifies the node
-
-@parent
-  Purpose: Identifies the parent node
-
-@children
-  Purpose: Lists sub-nodes
-
-@linked_to
-  Purpose: Connects related nodes or external resources
-
-@authority
-  Purpose: Defines decision-making level
-
-@status
-  Purpose: Current lifecycle state
-
-@version
-  Purpose: Semantic versioning
-
-@created
-  Purpose: Creation date
-
-@modified
-  Purpose: Last modified date
-
-═══════════════════════════════════════════════════════════════
-
-EXAMPLE RECORD
-
-0.00 :: VICTORIA LOVE FRANKLIN - CREATOR
-
-@definition = "Root creator identity and origin of the framework"
-
-@name = "Victoria Love Franklin"
-
-@role = ["Creator", "Architect", "Designer", "Developer"]
-
-@authority = "FULL"
-
-@framework_owner = true
-
-@created = "2026-10-05"
-
-@bio_url = "https://victorialovefranklin.github.io/victoria-franklin-site/"
-
-@bio_title = "Victoria Love Franklin | Portfolio"
-
-@bio_source = "GitHub Pages Portfolio"
-
-@bio_linked = true
-
-@entity_type = "PERSON"
-
-@status = "ACTIVE"
-
-@version = "1.0.0"
-
-@repository = "Franklin-Research-Hub/rod-framework-docs"
-
-@source_of_truth = true
-
-@governance_level = "ROOT"
-
-@responsibility = [
-  "Framework design",
-  "System architecture",
-  "Content strategy",
-  "Metadata structure",
-  "Governance model",
-  "AI/LLM knowledge architecture"
-]
-@copyright = "Copyright (c) 2026 Victoria Love Franklin. All rights reserved."
-
-@license_type = "Proprietary - Licensed by Contract"
-
-═══════════════════════════════════════════════════════════════
-
-NEXT STEPS
-
-The repository will continue to expand with framework definitions, policy nodes, approval nodes, and implementation documentation.
-
-This file is the governing definition for how the node system is structured and how to classify repository files.
+Update affected definitions, Foundation guidance, branch indexes and trees, and master navigation as applicable. Do not treat speculative future structures, optional metadata formats, or skills cards as established requirements.

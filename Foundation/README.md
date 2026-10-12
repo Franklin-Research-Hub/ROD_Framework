@@ -1,24 +1,23 @@
 # Foundation (Layer 1)
 
 ## 1. Purpose
-The Foundation layer is the base documentation layer of the `ROD_Framework` repository. It defines the structure, governance, metadata rules, validation references, and tree/branch organization on which all other layers depend.
+Foundation defines the working structural, governance, metadata, and validation rules for `ROD_Framework`. It applies the repository-wide authority of [MASTER-TREE-BRANCH.md](../MASTER-TREE-BRANCH.md), rather than replacing it.
 
 ## 2. Document Set
 | Document | Responsibility |
 |---|---|
-| `README.md` | Layer overview and document register |
-| `architecture.md` | Structural design of the framework |
-| `governance.md` | Rules for change control and stewardship |
-| `metadata-model.md` | Definitions for metadata and labeling |
-| `validation-references.md` | Criteria for checking consistency |
-| `tree-branch.md` | Raw tree and branch definition |
+| [README.md](README.md) | Branch entry and document register |
+| [architecture.md](architecture.md) | Layer boundaries and dependency rules |
+| [governance.md](governance.md) | Change control and stewardship |
+| [metadata-model.md](metadata-model.md) | Application of working metadata definitions |
+| [validation-references.md](validation-references.md) | Consistency checks and reference authorities |
+| [tree-branch.md](tree-branch.md) | Local Foundation tree |
 
 ## 3. Layer Position
-- Layer 1: `Foundation/`
-- Layer 2: `Creator/`
+Foundation is Layer 1. [Creator](../Creator/README.md) is Layer 2 and depends on Foundation; Foundation does not depend on creator records for structural validity.
 
 ## 4. Boundary Statement
-Foundation defines structure, governance, metadata rules, and validation logic. Creator records belong to Layer 2 and may include biography, portfolio, and extended profile material as part of creator metadata.
+Foundation contains rules, not creator identity records. Creator records are registered through [Creator/INDEX.md](../Creator/INDEX.md). Root definitions provide vocabulary; this branch explains its application without duplicating root navigation or creator metadata.
 
 ## 5. Status
-Baseline established.
+Active-working Foundation baseline, subject to controlled revision. Section numbers are local document order, not node identifiers.

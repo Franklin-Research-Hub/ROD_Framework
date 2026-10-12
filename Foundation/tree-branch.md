@@ -1,9 +1,9 @@
 # Tree and Branch
 
 ## 1. Purpose
-This document is the authoritative tree and branch definition for the Foundation layer.
+This is the local tree for Foundation (Layer 1), subordinate to [MASTER-TREE-BRANCH.md](../MASTER-TREE-BRANCH.md). It does not reproduce or redefine the repository-wide tree.
 
-## 2. Raw Tree: Foundation (Layer 1)
+## 2. Local Tree
 ```text
 Foundation/
 ├── README.md
@@ -14,38 +14,13 @@ Foundation/
 └── tree-branch.md
 ```
 
-## 3. Raw Tree: Full Repository
-```text
-ROD_Framework/
-├── LICENSE
-├── README.md
-├── CONTRIBUTING.md
-├── NOTICE.md
-├── Foundation/                      <- Layer 1
-│   ├── README.md
-│   ├── architecture.md
-│   ├── governance.md
-│   ├── metadata-model.md
-│   ├── validation-references.md
-│   └── tree-branch.md
-└── Creator/                         <- Layer 2
-    ├── README.md
-    ├── INDEX.md
-    ├── 0.00-creator.md
-    ├── website-application.md
-    └── tree-branch.md
-```
+## 3. Branch Roles
+[README.md](README.md) is the entry and document register. [Architecture](architecture.md), [governance](governance.md), [metadata model](metadata-model.md), and [validation references](validation-references.md) supply Foundation rules. This file describes their local placement.
 
-## 4. Branch Definitions
-| Branch | Location | Contents |
-|---|---|---|
-| Foundation | `Foundation/` | Layer 1 documents |
-| Creator | `Creator/` | Layer 2 creator records, including metadata with biography, portfolio, and extended profile material |
+No Foundation record index is defined in the current baseline. Creator records belong to the Creator branch and are registered through [its index](../Creator/INDEX.md).
 
-## 5. Branch Rules
-- Foundation changes stay in `Foundation/`.
-- Creator record changes stay in `Creator/`.
-- Creator metadata may include biography and portfolio references.
+## 4. Maintenance
+Update this local tree and the branch register when Foundation files change. Update master structure and TOC together for affected navigation changes, under [governance](governance.md).
 
-## 6. Maintenance
-Update this file whenever the Foundation tree changes.
+## 5. Status
+Active-working local baseline. The master tree remains the repository-wide structural authority.

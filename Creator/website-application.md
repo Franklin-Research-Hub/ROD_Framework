@@ -1,65 +1,27 @@
 # Website Application
 
 ## 1. Purpose
-This document explains how the Creator layer applies to a website and what is specifically included within creator metadata.
+This document explains how approved Creator record content may be applied to a website. It is application guidance, not a deployed website specification or a competing creator record.
 
-## 2. Website Role of the Creator Layer
-The Creator layer provides the creator-facing identity structure used for attribution, profile representation, and framework-origin reference within a website.
+## 2. Source and Branch Relationships
+Start with [README.md](README.md), resolve records through [INDEX.md](INDEX.md), and use [0.00-creator.md](0.00-creator.md) as the canonical creator source. [tree-branch.md](tree-branch.md) describes placement, not presentation content.
 
-## 3. Primary Creator Anchor
-The primary creator anchor is:
+## 3. Anchor Use
+The registered `0.00` label identifies the creator record. It may support attribution, about sections, author references, or metadata-backed profile displays. It must not be presented as a website version, layer number, or section identifier.
 
-`0.00 :: Victoria Love Franklin - Creator`
+## 4. Content Selection
+Use approved identity, role, and attribution from the canonical record. Biography, portfolio links, and extended profile material are optional and require approved source content; their inclusion is not implied by this guidance.
 
-This anchor may be used in:
-- website identity sections
-- about sections
-- author references
-- metadata-driven profile displays
-- framework attribution areas
+## 5. Visible and Structural Use
+Visible content may include a creator name, role, approved biography summary, and attribution. Structural metadata may include the anchor, source-record reference, or a separately documented revision.
 
-## 4. Specifically Included in Creator Metadata
-Creator metadata may include:
-- version
-- creator name
-- creator role
-- biography
-- portfolio reference
-- extended profile material
-- attribution statement
-- creator-layer label
+Keep displayed copies traceable to the canonical source. A website representation does not replace the record or create a new approval authority.
 
-## 5. Website Application Areas
-The Creator layer may apply to:
-- homepage creator attribution
-- about page identity references
-- author sections
-- structured profile components
-- metadata-backed creator presentation
-- framework origin statements
+## 6. Governance and Rights
+Follow [Foundation metadata rules](../Foundation/metadata-model.md), [governance](../Foundation/governance.md), and [LICENSE.md](../LICENSE.md). Attribution alone is not permission to publish or reuse proprietary content.
 
-## 6. Visible and Structural Use
-Some creator metadata may appear visibly on the website, while other metadata may function as structural or descriptive content that supports the site without appearing as full visible copy.
+## 7. Maintenance
+When the record changes, review affected displays and source links. Preserve the branch-to-index-to-record relationship. Website usage does not require surfacing the record in repo-wide navigation.
 
-### Visible examples
-- creator name
-- creator role
-- biography summary
-- attribution statement
-
-### Structural examples
-- version marker
-- creator-layer label
-- metadata grouping
-- profile reference structure
-
-## 7. Relationship to Foundation
-The Creator layer follows the rules established in `Foundation/`, especially:
-- architecture
-- governance
-- metadata model
-- validation references
-- tree and branch structure
-
-## 8. Summary
-The Creator layer defines how creator identity, attribution, biography, portfolio reference, and extended profile material are structured and applied within a website context.
+## 8. Status
+Active-working application baseline, subject to approved content and future implementation decisions.
