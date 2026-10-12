@@ -11,7 +11,7 @@ This repository is intended for controlled internal documentation, governance, a
 
 Framework owner:
 - Victoria Love Franklin
-- Franklin-Research-Hub/rod-framework-docs
+- Franklin-Research-Hub/ROD_Framework
 - Status: Proprietary - Licensed by Contract
 
 For inquiries, contact the owner directly.

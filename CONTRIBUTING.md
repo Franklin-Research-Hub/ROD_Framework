@@ -10,8 +10,8 @@ Contributions are limited to framework documentation, governance records, and in
 
 1. Preserve the repository structure.
 2. Keep the framework metadata model intact.
-3. Only files under `framework/` are treated as true framework nodes.
-4. Support documents in `docs/` must not be misclassified as framework nodes.
+3. Keep creator records in `Creator/` (Layer 2), following the rules in `Foundation/` (Layer 1).
+4. Root files and supporting layer documents are not creator records. Retained `docs/` and `framework/` material is legacy documentation, not the primary active structure.
 5. Do not alter the root authority or ownership claims without review.
 
 ## Workflow

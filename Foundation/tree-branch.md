@@ -17,10 +17,11 @@ Foundation/
 ## 3. Raw Tree: Full Repository
 ```text
 ROD_Framework/
-├── LICENSE
+├── LICENSE.md
 ├── README.md
 ├── CONTRIBUTING.md
 ├── NOTICE.md
+├── INDEX-METADATA-DEFINITIONS.md
 ├── Foundation/                      <- Layer 1
 │   ├── README.md
 │   ├── architecture.md
@@ -28,12 +29,14 @@ ROD_Framework/
 │   ├── metadata-model.md
 │   ├── validation-references.md
 │   └── tree-branch.md
-└── Creator/                         <- Layer 2
-    ├── README.md
-    ├── INDEX.md
-    ├── 0.00-creator.md
-    ├── website-application.md
-    └── tree-branch.md
+├── Creator/                         <- Layer 2
+│   ├── README.md
+│   ├── INDEX.md
+│   ├── 0.00-creator.md
+│   ├── website-application.md
+│   └── tree-branch.md
+├── docs/                            <- Legacy references
+└── framework/                       <- Legacy records and forms
 ```
 
 ## 4. Branch Definitions
