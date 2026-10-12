@@ -1,17 +1,16 @@
 # Notice
 
+## 1. Ownership
 Copyright (c) 2026 Victoria Love Franklin.
 All rights reserved.
 
-This repository and its contents are proprietary architectural and governance materials created by Victoria Love Franklin.
+`Franklin-Research-Hub/ROD_Framework` contains proprietary framework, architectural, and governance materials created by Victoria Love Franklin.
 
-No part of this repository may be reproduced, distributed, copied, or used without written authorization and a valid licensing agreement.
+## 2. Repository Context
+This is a governed archive for controlled documentation, governance, and approved implementation under contract. Its documentation represents an active-working framework baseline, not a claim of permanently completed architecture.
 
-This repository is intended for controlled internal documentation, governance, and approved implementation under contract.
+## 3. Rights Notice
+This notice identifies ownership and repository context; it does not grant a license. Usage restrictions and authorization requirements are stated in [LICENSE.md](LICENSE.md). Repository visibility does not grant permission to copy, distribute, or use these materials.
 
-Framework owner:
-- Victoria Love Franklin
-- Franklin-Research-Hub/rod-framework-docs
-- Status: Proprietary - Licensed by Contract
-
-For inquiries, contact the owner directly.
+## 4. Inquiries
+Contact Victoria Love Franklin directly for ownership, attribution, or licensing inquiries.
