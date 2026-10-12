@@ -16,6 +16,8 @@ The repository follows a layered model:
 2. Higher layers depend on lower layers, never the reverse.
 3. Creator records are kept out of the Foundation layer, but the rules that govern them are defined here.
 4. Structure is documented before it is extended.
+5. Root authority is explicit, metadata is machine-readable, and node relationships are hierarchical.
+6. Root legal, operational, and navigation files are support documents, not layers or metadata nodes. Layer support documents also remain distinct from indexed records.
 
 ## 4. Dependency Direction
 `Creator/` -> `Foundation/`

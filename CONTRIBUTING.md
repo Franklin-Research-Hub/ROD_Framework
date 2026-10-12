@@ -10,8 +10,8 @@ Contributions are limited to framework documentation, governance records, and in
 
 1. Preserve the repository structure.
 2. Keep the framework metadata model intact.
-3. Only files under `framework/` are treated as true framework nodes.
-4. Support documents in `docs/` must not be misclassified as framework nodes.
+3. Keep structural, governance, metadata, and validation rules in `Foundation/` (Layer 1).
+4. Keep creator records and their applied approval and validation materials in `Creator/` (Layer 2). Root files and layer support documents are not metadata nodes.
 5. Do not alter the root authority or ownership claims without review.
 
 ## Workflow
@@ -19,6 +19,8 @@ Contributions are limited to framework documentation, governance records, and in
 - update supporting documentation in the repo as needed
 - maintain metadata consistency in framework nodes
 - keep the root node authoritative and unchanged unless formally revised
+- use `ROD_Framework` for the literal repository name and ROD Framework for the human-readable title
+- update layer indexes and trees after moving, adding, or removing files, and verify relative Markdown links
 
 ## Contact
 

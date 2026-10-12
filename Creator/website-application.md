@@ -3,6 +3,8 @@
 ## 1. Purpose
 This document explains how the Creator layer applies to a website and what is specifically included within creator metadata.
 
+This is current application guidance, not a deployed website, build script, or hosting configuration. The repository contains no website implementation. The creator's portfolio reference is provenance metadata, not a deployment instruction.
+
 ## 2. Website Role of the Creator Layer
 The Creator layer provides the creator-facing identity structure used for attribution, profile representation, and framework-origin reference within a website.
 
