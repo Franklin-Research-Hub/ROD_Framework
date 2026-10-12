@@ -19,7 +19,7 @@ This repository is organized in two distinct ways:
 The repository root contains repository-wide files and top-level folders.
 
 Examples:
-- `LICENSE`
+- `LICENSE.md`
 - `README.md`
 - `CONTRIBUTING.md`
 - `NOTICE.md`
@@ -50,7 +50,7 @@ In this repository:
 
 ```text
 ROD_Framework/
-├── LICENSE
+├── LICENSE.md
 ├── README.md
 ├── CONTRIBUTING.md
 ├── NOTICE.md

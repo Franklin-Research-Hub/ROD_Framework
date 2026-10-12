@@ -17,7 +17,7 @@ Foundation/
 ## 3. Raw Tree: Full Repository
 ```text
 ROD_Framework/
-├── LICENSE
+├── LICENSE.md
 ├── README.md
 ├── CONTRIBUTING.md
 ├── NOTICE.md
