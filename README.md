@@ -24,8 +24,13 @@ rod-framework/
 │   ├── governance.md
 │   └── metadata-model.md
 ├── framework/
+│   ├── INDEX.md
 │   └── 0.00-creator.md
 ```
+
+## Framework
+
+- [0.00 :: Victoria Love Franklin - Creator](framework/0.00-creator.md)
 
 ## Node Model
 
