@@ -23,5 +23,9 @@ Any change to a Foundation document must:
 ## 5. Stewardship
 Stewardship of the framework rests with its creator, Victoria Love Franklin, unless superseded by documented governance.
 
+The root creator is the sole source of truth for framework authority and provenance. Metadata changes require review against the root framework definition. Legal and operational support documents remain separate from metadata records.
+
+The ROD Framework is intended for controlled governance and internal use. Expansion must preserve the distinction between Foundation rules, Creator records, and supporting documentation.
+
 ## 6. Summary
 Governance keeps the Foundation stable, reviewable, and continuous.

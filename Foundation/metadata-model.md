@@ -33,5 +33,7 @@ Creator metadata may include:
 ## 5. Structural Rule
 Foundation defines the metadata rules. Creator records implement them in Layer 2.
 
+See [Index & Metadata Definitions](index-metadata-definitions.md) for node identifiers, the planned hierarchy, and machine-readable `@` fields. The `0.00` label identifies a node; `@version` tracks the record's semantic version.
+
 ## 6. Summary
 The metadata model preserves meaning, placement, and document relationships across the repository structure.

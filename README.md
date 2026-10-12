@@ -19,7 +19,7 @@ This repository is organized in two distinct ways:
 The repository root contains repository-wide files and top-level folders.
 
 Examples:
-- `LICENSE`
+- `LICENSE.md`
 - `README.md`
 - `CONTRIBUTING.md`
 - `NOTICE.md`
@@ -44,19 +44,25 @@ In this repository:
 
 ### Layer Summary
 - `Foundation/` defines the structural, governance, metadata, validation, and tree rules of the framework.
-- `Creator/` defines creator-layer records, creator metadata, biography and portfolio inclusion, and website application.
+- `Creator/` defines creator-layer records, creator metadata, biography and portfolio inclusion, website application, and applied approval and validation materials.
 
 ## Repository Tree
 
 ```text
 ROD_Framework/
-├── LICENSE
+├── LICENSE.md
 ├── README.md
 ├── CONTRIBUTING.md
 ├── NOTICE.md
-├── Foundation/
-└── Creator/
+├── Foundation/                      # Layer 1: rules and definitions
+└── Creator/                         # Layer 2: records and application materials
+    ├── approvals/
+    ├── forms/
+    │   └── WORD-READY-CONTENT/
+    └── validation/
 ```
+
+This overview collapses document filenames within the layers. Use the [Foundation tree](Foundation/tree-branch.md), [Creator tree](Creator/tree-branch.md), [Creator index](Creator/INDEX.md), and [form source guide](Creator/forms/README.md) for their inventories.
 
 ## Documentation Layers
 
@@ -65,6 +71,7 @@ ROD_Framework/
 - [Foundation/architecture.md](Foundation/architecture.md)
 - [Foundation/governance.md](Foundation/governance.md)
 - [Foundation/metadata-model.md](Foundation/metadata-model.md)
+- [Foundation/index-metadata-definitions.md](Foundation/index-metadata-definitions.md)
 - [Foundation/validation-references.md](Foundation/validation-references.md)
 - [Foundation/tree-branch.md](Foundation/tree-branch.md)
 
@@ -72,8 +79,17 @@ ROD_Framework/
 - [Creator/README.md](Creator/README.md)
 - [Creator/INDEX.md](Creator/INDEX.md)
 - [Creator/0.00-creator.md](Creator/0.00-creator.md)
+- [Creator/0.1.00-documentation-index.md](Creator/0.1.00-documentation-index.md)
 - [Creator/website-application.md](Creator/website-application.md)
 - [Creator/tree-branch.md](Creator/tree-branch.md)
+- [Creator/approvals/approval-form-template.md](Creator/approvals/approval-form-template.md)
+- [Creator/forms/README.md](Creator/forms/README.md)
+
+## Preserved Application Materials
+
+The Creator index includes institution-specific approval and public-records validation records. These are preserved application materials, not new Foundation rules or independently verified policy claims.
+
+Website application guidance and the creator portfolio reference remain because they describe attribution and provenance. No website source, deployment scripts, generated site artifacts, configuration, or tracked workflows are present. Form downloads are text sources; Word/PDF files must be created locally.
 
 ## Governance
 

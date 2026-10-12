@@ -10,6 +10,7 @@ The Foundation layer is the base documentation layer of the `ROD_Framework` repo
 | `architecture.md` | Structural design of the framework |
 | `governance.md` | Rules for change control and stewardship |
 | `metadata-model.md` | Definitions for metadata and labeling |
+| `index-metadata-definitions.md` | Node classification, identifiers, planned hierarchy, and machine-readable fields |
 | `validation-references.md` | Criteria for checking consistency |
 | `tree-branch.md` | Raw tree and branch definition |
 
@@ -22,3 +23,5 @@ Foundation defines structure, governance, metadata rules, and validation logic. 
 
 ## 5. Status
 Baseline established.
+
+Start with [Architecture](architecture.md), [Governance](governance.md), [Metadata Model](metadata-model.md), [Index & Metadata Definitions](index-metadata-definitions.md), [Validation References](validation-references.md), and [Tree and Branch](tree-branch.md).

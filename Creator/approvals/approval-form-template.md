@@ -2,7 +2,7 @@
 
 This template provides the structure for framework proposal approval forms that can be adapted for different approval paths.
 
-For an editable PDF version, see: `approvals/approval-form-editable.pdf`
+Use this Markdown template or the [form text sources](../forms/README.md). No editable PDF is included in this repository.
 
 ## Approval Form Structure
 
@@ -59,4 +59,4 @@ Conditions/Notes: _______________________________________________
 
 ---
 
-For the editable PDF version designed by Victoria Love Franklin, see the accompanying PDF file.
+Copy the template into a local document editor to create an editable Word or PDF form.

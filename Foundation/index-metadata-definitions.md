@@ -1,4 +1,4 @@
-ROD FRAMEWORK - INDEX & METADATA DEFINITIONS
+# ROD Framework - Index & Metadata Definitions
 Created by: Victoria Love Franklin
 Source: 0.00
 Date: 2026-10-05
@@ -8,26 +8,26 @@ Version: 1.0.0
 
 REPOSITORY STRUCTURE & NODE CLASSIFICATION
 
-Only files in the framework/ folder should be actual nodes.
+Foundation/ (Layer 1) defines structural and metadata rules. Creator/ (Layer 2) contains indexed creator records and their applied approval and validation materials.
 
 Top-level repo files are support documents, not framework nodes:
 - README.md = portal and navigation, not a node
-- LICENSE = legal text, not a node
+- LICENSE.md = legal text, not a node
 - NOTICE.md = legal/ownership text, not a node
 - CONTRIBUTING.md = operational guidance, not a node
 
-docs/ files are supporting documentation, not metadata nodes:
-- docs/architecture.md = implementation reference, not a node
-- docs/governance.md = operational guidance, not a node
-- docs/replication.md = implementation playbook, not a node
-- docs/metadata-model.md = supporting documentation, not a node
+Foundation documents are rules and supporting references, not creator records:
+- architecture.md = layered architectural model
+- governance.md = change control and authority rules
+- metadata-model.md = metadata and label rules
+- validation-references.md = structural validation criteria
 
 Best practice:
 - root of repo = navigation and legal files
-- framework/ = actual metadata-driven node system
-- docs/ = non-node reference material linked from nodes
+- Foundation/ = foundational rules and non-node reference material
+- Creator/ = indexed creator records and supporting application material
 
-Only framework/ files are true nodes in the system.
+Only explicitly indexed metadata records are nodes; location alone does not make a README, form source, or other support document a node.
 
 ═══════════════════════════════════════════════════════════════
 
@@ -37,7 +37,7 @@ Index Node
   - A unique identifier in decimal notation (0.00, 0.1.00, 0.2.00, etc.)
   - Represents a category, concept, or structural element
   - The .00 suffix denotes a master definition node
-  - Lives exclusively in framework/ folder
+  - Creator and applied validation records live in Creator/
 
 Metadata Record
   - Data about an index node
@@ -53,6 +53,8 @@ Skills Card
 ═══════════════════════════════════════════════════════════════
 
 NODE HIERARCHY STRUCTURE
+
+Node levels below are identifier relationships, not documentation layer numbers. This is a planned hierarchy; an identifier does not imply an existing file. Current records are listed in the Creator index.
 
 Level 0: Creator / Root
   0.00 = Victoria Love Franklin (Creator)
@@ -114,53 +116,9 @@ Every node should include these core metadata fields:
 
 ═══════════════════════════════════════════════════════════════
 
-EXAMPLE RECORD
+RECORD PLACEMENT
 
-0.00 :: VICTORIA LOVE FRANKLIN - CREATOR
-
-@definition = "Root creator identity and origin of the framework"
-
-@name = "Victoria Love Franklin"
-
-@role = ["Creator", "Architect", "Designer", "Developer"]
-
-@authority = "FULL"
-
-@framework_owner = true
-
-@created = "2026-10-05"
-
-@bio_url = "https://victorialovefranklin.github.io/victoria-franklin-site/"
-
-@bio_title = "Victoria Love Franklin | Portfolio"
-
-@bio_source = "GitHub Pages Portfolio"
-
-@bio_linked = true
-
-@entity_type = "PERSON"
-
-@status = "ACTIVE"
-
-@version = "1.0.0"
-
-@repository = "Franklin-Research-Hub/rod-framework-docs"
-
-@source_of_truth = true
-
-@governance_level = "ROOT"
-
-@responsibility = [
-  "Framework design",
-  "System architecture",
-  "Content strategy",
-  "Metadata structure",
-  "Governance model",
-  "AI/LLM knowledge architecture"
-]
-@copyright = "Copyright (c) 2026 Victoria Love Franklin. All rights reserved."
-
-@license_type = "Proprietary - Licensed by Contract"
+The creator example's identity, authority, biography, ownership, and machine-readable fields are maintained in the canonical Layer 2 creator anchor record rather than duplicated in Foundation.
 
 ═══════════════════════════════════════════════════════════════
 
@@ -168,4 +126,4 @@ NEXT STEPS
 
 The repository will continue to expand with framework definitions, policy nodes, approval nodes, and implementation documentation.
 
-This file is the governing definition for how the node system is structured and how to classify repository files.
+This file defines node classification and fields alongside [Metadata Model](metadata-model.md). Foundation defines the rules; Creator records implement them.
